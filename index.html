@@ -1,10 +1,243 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title> Franki Nguimatsia Tiofack </title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-60N270QWBB"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60N270QWBB');
+    </script>
+
+    <meta name="Franki Nguimatsia Tiofack's homepage" http-equiv="Content-Type" content="Franki Nguimatsia Tiofack's homepage">
+    <meta property="og:title" content="Franki Nguimatsia Tiofack's homepage" />
+    <meta property="og:image" content="./myfiles/Franki_Nguimatsia_Tiofack_squared.jpg" />
+    <meta property="og:type" content="profile" />
+    <meta property="profile:first_name" content="Franki" />
+    <meta property="profile:last_name" content="Nguimatsia Tiofack" />
+    <meta property="profile:username" content="nguimatsia" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./myfiles/favicon.png">
+
+    <!-- <link rel="icon" type="image/png" sizes="512x512" href="./myfiles/favicon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="512x512" href="./myfiles/favicon.png"> -->
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my GitHub-hosted webpage.</p>
+    <div style="width:1000px;margin: 0px auto;">
+        <header id="header" width="400px" style="display:flex;justify-content: space-around;">
+            <a href="#profile-intro">Home</a>
+            <!-- <a href="#updates">Updates</a> -->
+            <a href="#research">Research</a>
+        </header>
+        <div id="profile">
+            <div id="profile-pic">
+                <img src="myfiles/Franki_Nguimatsia_Tiofack.jpg" />
+                <!-- <p style="text-align:left;margin-top:-15px;">Picture taken by Louann Coste</p> -->
+            </div>
+            <div id="profile-intro">
+                <div id="profile-name">
+                    Franki <br> Nguimatsia Tiofack
+                </div>
+                <div id="profile-email">franki.nguimatsia-tiofack [at] inria.fr</div>
+                <div id="profile-links">
+                    <a target="_blank" rel="noopener noreferrer"
+                        href="https://scholar.google.com/citations?user=TWJq9TQAAAAJ&hl=en">Google Scholar</a>
+                    /
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/NGUIMATSIA">Github</a>
+                    /
+                    <a target="_blank" rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/frankinguimatsia/">LinkedIn</a>
+                </div>
+                <div style="text-align: justify;">
+
+
+                    <p>
+                        I am a second-year Ph.D. student in the <a target="_blank" rel="noopener noreferrer"
+                            href="https://www.di.ens.fr/willow/">Willow team</a>
+                        at <a target="_blank" rel="noopener noreferrer"
+                            href="https://en.wikipedia.org/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation">Inria</a>
+                        and <a target="_blank" rel="noopener noreferrer"
+                            href="https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)">Ecole
+                            normale
+                            supérieure ENS-PSL</a>,  advised by <a target="_blank" rel="noopener noreferrer"
+                            href="https://jcarpent.github.io/">Justin
+                            Carpentier</a>.
+                    </p>
+
+                    <p>
+                        My research lies at the intersection of reinforcement learning, optimization, and planning with applications in robotics.
+                        I currently collaborate closely with <a target="_blank" rel="noopener noreferrer" href="https://theotimeLH.github.io/">Théotime Le Hellard
+                        </a> and <a target="_blank" rel="noopener noreferrer"
+                            href="https://fabinsch.github.io/">Fabian
+                            Schramm</a>.
+                    </p>
+
+                    <p>
+
+                    </p>
+                    <p>
+                        
+                        My academic background spans mathematics, statistics, and machine learning. 
+                        I began with a Bachelor's in mathematics and computer science from the university of Dschang,
+                        followed by a Master's in Mathematics from the University of Yaoundé I and a dual Engineering degree from 
+                        <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/ENSAE_Paris">ENSAE Paris</a> and ISSEA Yaoundé, with major in statistics and machine learning.
+                        I also hold the <a target="_blank" rel="noopener noreferrer" href="https://www.lemonde.fr/campus/article/2022/05/14/a-saclay-le-master-qui-forme-la-creme-de-la-creme-des-specialistes-en-intelligence-artificielle_6126045_4401467.html">MVA (Mathematics, Vision, Learning)</a>
+                        Master's degree from <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay">ENS Paris-Saclay</a>.
+                    </p> 
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="divider"></div>
+        <div style="display:flex;flex-direction: column;" id="research">
+            <h1>Research</h1>
+            <!-- 
+            
+            SVL 
+            
+            -->
+            <div>
+                <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2604.17551"
+                    style="height: 13em;" class="research-thumb">
+                    <img width="320" src="papers_images/survival-value-learning.png" alt="">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2604.17551"
+                    class="research-proj-title">
+                    SVL: Goal-Conditioned Reinforcement Learning as Survival Learning
+                </a>
+                <p>
+                    <b > Franki Nguimatsia Tiofack</b>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://fabinsch.github.io/">Fabian Schramm</a>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://theotimeLH.github.io/">Théotime Le Hellard</a>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://jcarpent.github.io/">Justin Carpentier</a>
+                    <br>Preprint<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2604.17551.pdf">ArXiv</a>
+                    <!-- &nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                </p>
+            </div>
+
+            <!-- 
+            
+            MPPI 
+            
+            -->
+            <div>
+                <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2602.03639"
+                    style="height: 13em;  display: flex; align-items: flex-start; justify-content: center;"
+                    class="research-thumb">
+                    <img width="320" src="papers_images/V_MPPI_small.png" alt=""
+                        style="width: 85%; height: 11em;">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2602.03639"
+                    class="research-proj-title">
+                    Variance-Reduced Model Predictive Path Integral via Quadratic Model Approximation
+                    
+                </a>
+                <p>
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://fabinsch.github.io/">Fabian Schramm</a>,
+                    <b > Franki Nguimatsia Tiofack</b>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://www.user.tu-berlin.de/mtoussai/"> Marc Toussaint </a>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://jcarpent.github.io/">Justin Carpentier</a>
+                    <br>Preprint<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2602.03639">ArXiv</a>
+                    <!-- &nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                </p>
+            </div>
+
+            <!-- 
+            
+            GFP 
+            
+            -->
+            <div>
+                <a target="_blank" rel="noopener noreferrer"
+                    href="https://simple-robotics.github.io/publications/guided-flow-policy/" style="height: 13em;"
+                    class="research-thumb">
+                    <img width="320" src="papers_images/guided-flow-policy.png" alt="">
+                </a>
+                <a target="_blank" rel="noopener noreferrer"
+                    href="https://simple-robotics.github.io/publications/guided-flow-policy/"
+                    class="research-proj-title">
+                    Guided Flow Policy: Learning from High-Value Actions in Offline RL
+                </a>
+                <p>
+                    <b > Franki Nguimatsia Tiofack* </b>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://theotimeLH.github.io/">Théotime Le Hellard*</a>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://fabinsch.github.io/">Fabian Schramm</a>*,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://www.isir.upmc.fr/personnel/perrin/?lang=en">Nicolas Perrin-Gilbert</a>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://jcarpent.github.io/">Justin Carpentier</a>
+                    <br>International Conference on Learning Representations (<b>ICLR</b>) 2026<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://simple-robotics.github.io/publications/guided-flow-policy/">Website</a>
+                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2512.03973">ArXiv</a>
+                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Simple-Robotics/guided-flow-policy">Github</a>
+                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a target="_blank" rel="noopener noreferrer" href="https://iclr.cc/virtual/2026/poster/10010702">Video</a>
+                    <!-- &nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                </p>
+            </div>
+            <!-- 
+            
+            Sobolev Diffusion 
+            
+            -->
+            <div>
+                <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2604.19011"
+                    style="height: 13em;  display: flex; align-items: flex-start; justify-content: center;"
+                    class="research-thumb">
+                    <img width="320" src="papers_images/sobolev-diffusion.png" alt=""
+                        style="width: 80%; height: auto; object-fit: contain;">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2604.19011"
+                    class="research-proj-title">
+                    Accelerating trajectory optimization with Sobolev-trained diffusion policies
+                </a>
+                <p>
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://theotimeLH.github.io/">Théotime Le Hellard*</a>,
+                    <b>Franki Nguimatsia Tiofack*</b>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://quentinll.github.io/">Quentin Le Lidec</a>,
+                    <a style="color:#000;" target="_blank" rel="noopener noreferrer"
+                        href="https://jcarpent.github.io/">Justin Carpentier</a>
+                    <br>World Symposium on the Algorithmic Foundations of Robotics (<b>WAFR</b>) 2026<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2604.19011">ArXiv</a>
+                    <!-- &nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <table width="95%" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td><br>
+                <p align="right">
+                    Website template from <a target="_blank" rel="noopener noreferrer" href="https://cheng-chi.github.io/">Cheng Chi</a>, 
+                    readapted by <a target="_blank" rel="noopener noreferrer" href="https://theotimelh.github.io/">Théotime Le Hellard</a>, many thanks.
+                    </font>
+                </p>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
